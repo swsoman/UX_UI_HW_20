@@ -1,0 +1,32 @@
+nav {
+  background-color: #cfe0c3;
+  text-align: center;
+}
+.navbar-brand {
+  text-align: center;
+  font-family: "Righteous", cursive;
+  font-weight: 500;
+  color: #303030;
+}
+.navbar-text {
+  color: #303030;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+.nav-link {
+  color: grey;
+}
+.active {
+  color: #007bff;
+}
+h3,
+p,
+div {
+  text-align: center;
+}
