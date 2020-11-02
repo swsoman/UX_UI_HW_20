@@ -30,7 +30,7 @@ h1 {
   margin: 10px auto;
   width: 100%;
 }
-.nav-item {
+.nav_item {
   width: 33%;
 }
 .subTitle {
@@ -312,7 +312,7 @@ footer ul {
   font-size: 18px;
   font-weight: 400;
 }
-.accordion {
+/* .accordion {
   background-color: #cfe0c3;
   color: #303030;
   cursor: pointer;
@@ -342,13 +342,16 @@ footer ul {
   background-color: #ffffff;
   display: none;
   overflow: hidden;
-}
+} */
 
 .socialMediaFooter1,
 .socialMediaFooter {
   height: 55px;
 }
-
+.nav .justify-content-center {
+  display: flex;
+  justify-content: center;
+}
 /* Media Querys */
 @media only screen and (max-width: 600px) {
   .Container_grid {
@@ -409,7 +412,7 @@ footer ul {
     font-weight: 700;
     align-self: center;
   }
-  .nav-item {
+  .nav_item {
     display: flex;
     justify-content: center;
   }
@@ -423,7 +426,7 @@ footer ul {
     margin: 10px auto;
     width: 100%;
   }
-  /* .nav-item {
+  /* .nav_item {
     width: 33%;
   } */
 
