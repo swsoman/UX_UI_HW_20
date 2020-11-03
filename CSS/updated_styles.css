@@ -2,6 +2,11 @@ nav {
   background-color: #cfe0c3;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .navigation-element {
+    width: 33%;
+  }
+}
 .navbar-brand {
   text-align: center;
   font-family: "Righteous", cursive;
@@ -23,10 +28,15 @@ nav {
   color: grey;
 }
 .active {
-  color: #007bff;
+  color: #faa319;
 }
+
 h3,
 p,
 div {
   text-align: center;
+}
+.footer_color {
+  background-color: #cfe0c3;
+  padding-top: 20px;
 }

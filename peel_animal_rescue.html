@@ -18,9 +18,9 @@
     />
   </head>
   <body>
-    <!-- Image and text -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">
+    <!-- Bootstrap Nav component -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="navigation-element d-flex justify-content-start">
         <img
           src="./Images/Logo_SW_font_free.svg"
           width="35"
@@ -29,8 +29,8 @@
           alt=""
           loading="lazy"
         />
-        swaroopa
-      </a>
+      </div>
+      <a class="navbar-brand navigation-element" href="#"> swaroopa </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -42,58 +42,36 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+      <div
+        class="collapse navbar-collapse justify-content-end navigation-element"
+        id="navbarNavAltMarkup"
+      >
+        <div class="navbar-nav p-2">
           <a class="nav-link active" href="#"
             >about <span class="sr-only">(current)</span></a
           >
-          <a class="nav-link" href="#">work</a>
-          <a class="nav-link" href="#">contact</a>
-
-          <!-- <a  
-            class="nav-link disabled"
-            href="#"
-            tabindex="-1"
-            aria-disabled="true"
-            >Disabled</a
-          > -->
+          <a class="nav-link p-2" href="#">work</a>
+          <a class="nav-link p-2" href="#">contact</a>
         </div>
       </div>
     </nav>
-    <nav class="navbar">
+
+    <nav class="d-flex justify-content-center">
       <span class="navbar-text">
         User Experience and User Interface Designer
       </span>
     </nav>
-
+    <!-- Bootstrap breadcrumb component -->
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Library</li>
+        <li class="breadcrumb-item active" aria-current="page">
+          Peel Animal Rescue Society
+        </li>
       </ol>
     </nav>
 
-    <!-- <header class="navigation">
-      <div class="inlineBlock">
-        <div class="nav_item">
-          <img
-            src="./Images/Logo_SW_font_free.svg"
-            alt="Logo SW"
-            class="logo"
-          />
-        </div>
-        <p class="titleMain nav_item">swaroopa</p>
-
-        <ul class="nav_item" style="list-style-type: none">
-          <li class="inlineBlock" id="aboutlink">about</li>
-          <li class="inlineBlock">work</li>
-          <li class="inlineBlock" id="contactlink">contact</li>
-        </ul>
-      </div>
-      <p class="subTitle">User Experience and User Interface Designer</p>
-    </header> -->
-
-    <!-- Project Intro -->
+    <!-- Bootstrap headings, paragraphs and text styling -->
     <img
       src="./Peel Animal Rescue/logo2 with no background 1.png"
       class="rounded mx-auto d-block"
@@ -108,47 +86,41 @@
       Rebranding the style guide ,Prototyping of the wireframes
     </div>
     <div>Project Timeline : 3 weeks</div>
-    <!-- Project Navigation -->
+    <br />
+    <div><strong>Project Summary</strong></div>
+    <div>
+      Peel Animal Rescue Center a.k.a PARS was choosen because they work towards
+      this incredible cause of finding new homes and families for rescue
+      animals.
+      <br />
+      Their website needed a whole new UX design approach especially making the
+      adoption process a 100% online. This was mostly something that was
+      necessary given the fact that this organization works 100% online during
+      Covid-19 Pandemic.<br />
+      One of the main project goal was to design an experience for adoption of a
+      rescue animal in the new normal world senario.
+    </div>
+    <!-- Bootstrap Nav-item Project Navigation -->
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link active" href="#">User Research</a>
+        <a class="nav-link active" href="#">Research</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">User Persona</a>
+        <a class="nav-link" href="#">Empathy</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Project Goals</a>
+        <a class="nav-link" href="#">Definition</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Feature Prioritization</a>
+        <a class="nav-link" href="#">Ideation</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Storyboard</a>
+        <a class="nav-link" href="#">Prototype</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">User Flow</a>
+        <a class="nav-link" href="#">Testing</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Sitemap</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Style Guide</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Lo-fi Wireframes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">User Testing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Design Iterations</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Hi-Fi Prorotype</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Conclusion</a>
-      </li>
+
       <!-- <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
           >Disabled</a
@@ -156,7 +128,70 @@
       </li> -->
     </ul>
     <!--  Footer -->
-    <footer>
+    <!-- bootstrap layout grids rows  -->
+    <div class="footer_color">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            <ul style="list-style-type: none">
+              <div>
+                <strong
+                  ><li class="inlineBlock footerContact">Contact</li></strong
+                >
+              </div>
+              <div><li class="inlineBlock footerResume">Resume</li></div>
+              <div><li class="inlineBlock footerEmail">Email</li></div>
+              <div>
+                <li class="inlineBlock footerEmailId">
+                  swaroopa_work@outlook.com
+                </li>
+              </div>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <ul style="list-style-type: none">
+              <div>
+                <strong><li class="inlineBlock footerWork">Work</li></strong>
+              </div>
+              <div>
+                <li class="inlineBlock footerFulllList">
+                  Full list of projects
+                </li>
+              </div>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <img
+              src="./Images/Logo_SW_font_free.svg"
+              width="75"
+              height="75"
+              class="d-inline-block align-top"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div class="col-sm">
+            <div>
+              <p><strong> me on</strong></p>
+              <div>
+                <img src="./Images/fb footer.svg" alt="fb link" />
+                <img src="./Images/instagram footer.svg" alt="ig link" />
+                <img src="./Images/Dribbble Footer.svg" alt="drible link" />
+                <img src="./Images/LinkedIn Footer.svg" alt="linkedin link" />
+                <img src="./Images/Behence Footer.svg" alt="behence link" />
+              </div>
+              <div>
+                <p class="footerEmailId">
+                  &#169; 2020 | TERMS OF USE | Privacy
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <footer>
       <div class="flex-container">
         <div class="footer-text">
           <div>
@@ -201,7 +236,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./JS/index.js"></script> -->
